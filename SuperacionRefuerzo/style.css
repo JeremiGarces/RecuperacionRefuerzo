@@ -1,0 +1,53 @@
+/* Estilos generales */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* barra de navegacion */
+header{
+    background-color: #333;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+nav li{
+    margin-right: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* estilos de secciones */
+
+section{
+    padding: 2rem;
+}
+
+/* Estilos de comidas */
+
+.comidas{
+    border: 1px;
+
+    margin-bottom: 1rem;
+
+    padding: 1rem;
+
+    text-align: center;
+}
+
+.precio{
+    color: #00aaff;
+
+    font-weight: bold;
+}
